@@ -7,21 +7,11 @@ const ContactTwo = ({...restProps})=> (
   <div {...restProps}>
     <div className="container">
       <Tab.Container  id="contactTab" defaultActiveKey='tabno1'>
-        <Nav className="contact-tab-menu">
-          <Nav.Link eventKey="tabno1">
+        <Nav className="contact-tab-menu" >
+          <Nav.Link eventKey="tabno1" style={{backgroundColor: '#EFF1F5'}}>
             <span className="btn-img"><img src="images/contact/contact-1-1.jpg" alt="tabicon"/></span>
-            <span className="btn-title h6">TechBiz, Germany</span>
-            <span className="btn-text">86 KKL, FrankFrut</span>
-          </Nav.Link>
-          <Nav.Link eventKey="tabno2">
-            <span className="btn-img"><img src="images/contact/contact-1-2.jpg" alt="tabicon"/></span>
-            <span className="btn-title h6">TechBiz, Australia</span>
-            <span className="btn-text">259 NYD, Canberra</span>
-          </Nav.Link>
-          <Nav.Link eventKey="tabno3">
-            <span className="btn-img"><img src="images/contact/contact-1-3.jpg" alt="tabicon"/></span>
-            <span className="btn-title h6">TechBiz, United State</span>
-            <span className="btn-text">259 NYD, NewYork</span>
+            <span className="btn-title h6" style={{color: '#0844BC'}}>Vin Five Inc</span><br />
+            <span className="btn-text" style={{color: '#0844BC'}}>Toronto, Canada</span>
           </Nav.Link>
         </Nav>
         <Tab.Content>          
@@ -29,17 +19,17 @@ const ContactTwo = ({...restProps})=> (
             <div className="row">
               <div className="col-lg-6 mb-30">
                 <div className="contact-box">
-                  <h3 className="contact-box__title h4">Germany Office Address</h3>                  
+                  <h3 className="contact-box__title h4">Canada Office Address</h3>                  
                   <p className="contact-box__text">Completely recaptiualize 24/7 communities via standards compliant metrics whereas web-enabled content</p>
                   <InfoMedia
-                    icon="fal fa-phone-alt"
-                    title="Phone Number & Email"
-                    info={<><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:info@example.com">info@example.com</a></>}
+                    icon="far fa-envelope"
+                    title="Email"
+                    info={<><a href="mailto:contact@vinfive.com">contact@vinfive.com</a></>}
                   />
                   <InfoMedia
                     icon="far fa-map-marker-alt"
                     title="Our Office Address"
-                    info="258 Dancing Street, Miland Line, HUYI 21563, FrankFrut"
+                    info="Toronto, Canada"
                   />
                   <InfoMedia
                     icon="far fa-clock"
@@ -66,7 +56,7 @@ const ContactTwo = ({...restProps})=> (
                   <InfoMedia
                     icon="fal fa-phone-alt"
                     title="Phone Number & Email"
-                    info={<><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:info@example.com">info@example.com</a></>}
+                    info={<><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:contact@vinfive.com">contact@vinfive.com</a></>}
                   />
                   <InfoMedia
                     icon="far fa-map-marker-alt"
@@ -98,7 +88,7 @@ const ContactTwo = ({...restProps})=> (
                   <InfoMedia
                     icon="fal fa-phone-alt"
                     title="Phone Number & Email"
-                    info={<><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:info@example.com">info@example.com</a></>}
+                    info={<><a href="tel:+310259121563">+(310) 2591 21563</a><a href="mailto:contact@vinfive.com">contact@vinfive.com</a></>}
                   />
                   <InfoMedia
                     icon="far fa-map-marker-alt"

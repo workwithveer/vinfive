@@ -53,7 +53,7 @@ const TeamSingle = ({...restProps})=> {
                   <InfoMedia className="team-media"
                     icon="fas fa-envelope"
                     title="Email"
-                    info={<a href="mailto:info@example.com">info@example.com</a>}
+                    info={<a href="mailto:contact@vinfive.com">contact@vinfive.com</a>}
                   />
                 </div>
                 <div className="col-sm-6">

@@ -26,7 +26,7 @@ const HeaderFour = ()=> (
         <List className="header-links style-white">
           <List.Item><i className="far fa-phone-alt"/><a href="tel:+25632542598">(+256) 3254 2598</a></List.Item>
           <List.Item className="d-none d-xxl-inline-block"><i className="far fa-map-marker-alt"/>121 King St. Melbourne VIC 3000, Australia</List.Item>
-          <List.Item><i className="far fa-envelope"/><a href="mailto:info@example.com">info@example.com</a></List.Item>
+          <List.Item><i className="far fa-envelope"/><a href="mailto:contact@vinfive.com">contact@vinfive.com</a></List.Item>
         </List>
       </HeaderTop.Left>
       <HeaderTop.Right>

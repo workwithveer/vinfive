@@ -50,7 +50,7 @@ const ProjectSingle = ({...restProps})=> (
             bgImage="images/bg/sidebox-bg-1-1.jpg"
           >
             <ContactWidget.Info><i className="fas fa-phone-alt"/><a href="tel:+2869852156">+286 985 2156</a></ContactWidget.Info>
-            <ContactWidget.Info><i className="fas fa-envelope"/><a href="mailto:info@example.com">info@example.com</a></ContactWidget.Info>
+            <ContactWidget.Info><i className="fas fa-envelope"/><a href="mailto:contact@vinfive.com">contact@vinfive.com</a></ContactWidget.Info>
             <ContactWidget.Info><i className="fas fa-map-marker-alt"/>Sandell St, London SE1<br/>8NH, United Kingdom</ContactWidget.Info>
           </ContactWidget>
 

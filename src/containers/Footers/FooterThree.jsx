@@ -39,9 +39,7 @@ const FooterThree = ()=> (
               icon="fal fa-phone-volume"
               title="Contact Us"
               info={<>
-                <a href="mailto:info@example.com">info@example.com</a>
-                <br/>
-                <a href="tel:+2597462153">(+259) 746 2153</a>
+                <a href="mailto:contact@vinfive.com">contact@vinfive.com</a>
               </>}
             />
           </div>

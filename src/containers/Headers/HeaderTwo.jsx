@@ -40,7 +40,7 @@ const HeaderTwo = () => (
           <InfoMedia className="header-media col-auto d-none d-lg-flex"
             icon="fas fa-envelope"
             title="Mail Us For Support"
-            info={<a href="mailto:info@example.com">contact@vinfive.com</a>}
+            info={<a href="mailto:contact@vinfive.com">contact@vinfive.com</a>}
           />
           <InfoMedia className="header-media col-auto d-none d-xl-flex"
             icon="fas fa-map-marker-alt"
